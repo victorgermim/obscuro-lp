@@ -45,9 +45,9 @@ export function Footer() {
       </div> */}
 
       {/* CTA Banner */}
-      <div className="relative z-10 max-w-4xl mx-auto bg-red-500 p-6 md:p-8 flex flex-col md:flex-row items-center justify-between text-white text-center md:text-left space-y-4 md:space-y-0 rounded-lg">
+      <div className="relative z-10 max-w-4xl mx-auto bg-[#940203] p-6 md:p-8 flex flex-col md:flex-row items-center justify-between text-white text-center md:text-left space-y-4 md:space-y-0 rounded-lg">
         <p className="text-lg md:text-xl font-bold tracking-wide leading-tight">{SITE_CONTENT.footer.ctaBanner.text}</p>
-        <Button className="bg-white text-black px-8 py-3 text-sm tracking-widest hover:bg-gray-200 transition-all duration-300 font-medium">
+        <Button className="bg-white cursor-pointer text-black px-8 py-3 text-sm tracking-widest hover:bg-gray-200 transition-all duration-300 font-medium">
           {SITE_CONTENT.footer.ctaBanner.button}
         </Button>
       </div>

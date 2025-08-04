@@ -26,7 +26,7 @@ export function NewTattooSection() {
               </p>
 
               {/* CTA Button */}
-              <Button className="bg-red-500 text-white px-8 py-3 text-sm tracking-widest hover:bg-white hover:text-red-500 transition-all duration-300 font-medium">
+              <Button className="bg-[#940203] cursor-pointer text-white px-8 py-3 text-sm tracking-widest hover:bg-white hover:text-[#940203] transition-all duration-300 font-medium">
                 {SITE_CONTENT.newSection.cta}
               </Button>
             </div>

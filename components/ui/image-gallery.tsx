@@ -11,6 +11,7 @@ export function ImageGallery() {
           fill
           className="object-cover"
         />
+        <span className="absolute inset-0 bg-[#940203] mix-blend-multiply pointer-events-none" />
       </div>
 
       <div className="relative aspect-[3/4] overflow-hidden">
@@ -20,6 +21,8 @@ export function ImageGallery() {
           fill
           className="object-cover"
         />
+        <span className="absolute inset-0 bg-[#940203] mix-blend-multiply pointer-events-none" />
+
       </div>
     </div>
   )

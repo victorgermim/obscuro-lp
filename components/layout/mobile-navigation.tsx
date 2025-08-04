@@ -23,7 +23,7 @@ export function MobileNavigation({ isOpen, onClose }: MobileNavigationProps) {
       </div>
       <nav className="flex flex-col items-center justify-center h-full space-y-8 text-2xl font-light tracking-wider">
         {ALL_NAVIGATION_ITEMS.map((item: NavigationItem) => (
-          <a key={item.label} href={item.href} className="hover:text-red-500 transition-colors" onClick={onClose}>
+          <a key={item.label} href={item.href} className="hover:text-[#940203] transition-colors" onClick={onClose}>
             {item.label}
           </a>
         ))}

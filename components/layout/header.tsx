@@ -1,11 +1,12 @@
 "use client"
 
 import { useState } from "react"
-import { Menu } from "lucide-react"
+import { Menu, X as XIcon } from "lucide-react"
 import { Navigation } from "./navigation"
 import { MobileNavigation } from "./mobile-navigation"
 import { Logo } from "../ui/logo"
 import { LEFT_NAVIGATION, RIGHT_NAVIGATION } from "@/constants/navigation"
+
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -30,7 +31,7 @@ export function Header() {
 
       <div className="relative flex items-center">
         {/* Left Plus */}
-        <div className="text-red-500 text-xl">X</div>
+        <XIcon className="w-5 h-5 text-[#940203]" />
 
         <div className="flex-1 h-px bg-white mx-4 relative">
           <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -38,7 +39,7 @@ export function Header() {
           </div>
         </div>
 
-        <div className="text-red-500 text-xl">X</div>
+        <XIcon className="w-5 h-5 text-[#940203]" />
       </div>
 
       <MobileNavigation isOpen={isMobileMenuOpen} onClose={toggleMobileMenu} />

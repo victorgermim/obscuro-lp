@@ -29,7 +29,7 @@ export function GallerySection() {
             <p className="text-gray-300 text-sm leading-relaxed tracking-wide max-w-md">
               {SITE_CONTENT.gallerySection.description}
             </p>
-            <Button className="bg-red-500 text-white px-8 py-3 text-sm tracking-widest hover:bg-white hover:text-red-500 transition-all duration-300 font-medium">
+            <Button className="bg-[#940203] cursor-pointer text-white px-8 py-3 text-sm tracking-widest hover:bg-white hover:text-[#940203] transition-all duration-300 font-medium">
               {SITE_CONTENT.gallerySection.cta}
             </Button>
           </div>

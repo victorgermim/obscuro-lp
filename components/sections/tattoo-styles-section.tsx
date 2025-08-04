@@ -39,8 +39,8 @@ export function TattooStylesSection() {
               key={style.name}
               onClick={() => setActiveStyle(style)}
               className={cn(
-                "relative w-full max-w-xs md:max-w-sm lg:max-w-md py-4 px-6 border border-white text-white text-lg md:text-xl font-bold tracking-widest uppercase transform -rotate-3 hover:rotate-0 transition-all duration-300",
-                activeStyle.name === style.name && "bg-red-500 border-red-500 rotate-0",
+                "relative w-full cursor-pointer max-w-xs md:max-w-sm lg:max-w-md py-4 px-6 border border-white text-white text-lg md:text-xl font-bold tracking-widest uppercase transform -rotate-3 hover:rotate-0 transition-all duration-300",
+                activeStyle.name === style.name && "bg-[#940203] border-[#940203] rotate-0",
               )}
               style={{ transform: activeStyle.name === style.name ? "rotate(0deg)" : "rotate(-3deg)" }}
             >
